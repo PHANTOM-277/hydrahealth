@@ -4,6 +4,6 @@
 In the web-dev folder , the file home.html is the main index of our project , 
 if you're running it please open the home.html.
 
-After student-login comes the dashboard , which as of now is not connected with the login page (back-end not yet started).
+After student-login comes the dashboard (available in dashboard.html ) , which as of now is not connected with the login page (back-end not yet started).
 
 Thank you.
