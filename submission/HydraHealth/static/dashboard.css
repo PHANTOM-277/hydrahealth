@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#navigation{
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    width:100%;
+}
+
+nav{
+    overflow: hidden;
+    position: relative;
+    height:60px;
+    background-color: #63B457;
+    border-bottom: 5px solid #1E8941;
+}
+
+nav li{
+    margin-left: 10px;
+    display: inline-block;
+    padding-right: 50px;
+    font-size:35px;
+    text-shadow: 2px 2px 2px #1E8941;
+    text-decoration: none;
+    padding-top:10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    float:left;
+    height: 60px;
+    width:60px;
+}
+
+#logout{
+    position:absolute;
+    right:15px;
+}
+
+#HydraHealth{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#name{
+    position: absolute;
+    right: 150px;
+}
+
+#body{
+    padding-top:60px;
+    height: 100vh;
+    width:100%;
+    display: inline-block;
+    position: relative;
+}
+#sidepanel{
+    height:100%;
+    width:20%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgb(221,221,221);
+    box-sizing: border-box;
+    overflow: hidden; 
+    background-color: rgb(211,211,211);
+    border-right:5px solid rgb(100,100,100);
+    display: flex; /* Use flexbox to center the button vertically */
+    justify-content: center;
+}
+
+#sidepanel button{
+    height: 35px;
+    position: absolute;
+    top:25px;
+    width:100px;
+    border-radius: 10px;
+    font-size: 22px;
+    background: linear-gradient(to left top, rgb(211,211,211), rgb(255,255,255));
+    border:0px;
+}
+
+#sidepanel button:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+#sidepanel button:active{
+    box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+#content{
+    height:92%;
+    width:80%;
+    position:absolute;
+    top:0;
+    left:20%;
+    background-color:rgb(211,211,211);
+    /*background: (to right, rgb(211,211,211)1%, rgb(100,100,100)200%);*/
+    padding:25px;
+}
+
+#content h1{
+    display: inline-block;
+}
+
+#Curriculum{
+    position: absolute;
+    right: 10%;
+}
+
+#Curriculum{
+    height: 35px;
+    position: absolute;
+    top:25px;
+    width:125px;
+    border-radius: 10px;
+    font-size: 22px;
+    background: linear-gradient(to left top, rgb(211,211,211), rgb(255,255,255));
+    border:0px;
+}
+
+#Curriculum:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+#Curriculum:active{
+    box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.circle{
+    margin-top: 25px;
+    height:75px;
+    width:75px;
+    border-radius: 50%;
+    object-fit: contain;
+    overflow: hidden;
+    display: block;
+}
+
+.circle img{
+    
+    width:100%;
+    height: auto;
+}
+
+#content p{
+    position:absolute;
+    left:100px;
+    font-size:16px;
+    text-decoration: none;
+    color: black;
+}
+
+#point1{
+    position: absolute;
+    top:140px;
+}
+
+#point2{
+    position: absolute;
+    top:240px;
+}
+
+#point3{
+    position: absolute;
+    top:340px;
+}

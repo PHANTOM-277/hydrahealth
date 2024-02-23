@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#navigation{
+    background-color: #63B457;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    width:100%;
+}
+
+nav{
+    overflow: hidden;
+    position: relative;
+    height:60px;
+    border-bottom:5px solid #1E8941;
+}
+
+nav li{
+    margin-left: 10px;
+    display: inline-block;
+    padding-right: 50px;
+    font-size:35px;
+    text-shadow: 2px 2px 2px #1E8941;
+    text-decoration: none;
+    padding-top:10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    float:left;
+    height: 60px;
+    width:60px;
+}
+
+#box1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image:url('background-image4.jpg');
+    display: grid;
+    place-items: center;
+   
+}
+
+
+#box2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(201, 195, 195);
+    position: relative;
+    top:80px;
+    border:5px solid #1E8941;
+    border-radius: 35px;
+    margin-right:50px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+#box3{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(201, 195, 195);
+    position: relative;
+    border:5px solid #1E8941;
+    border-radius: 35px;
+    margin-right:50px;
+    overflow: hidden;
+}
+
+#box2 img{
+    width: 100%; /* Set the image width to 100% of the container's width */
+    height: 100%; /* Set the image height to 100% of the container's height */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    object-position: center;
+}
+
+#box3 img{
+    width: 100%; /* Set the image width to 100% of the container's width */
+    height: 100%; /* Set the image height to 100% of the container's height */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    object-position: center;
+}

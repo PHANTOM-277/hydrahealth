@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydraHealth</title>
+    <link rel="stylesheet" href="{% static 'topic3.css' %}">
+</head>
+<body>
+    <div id="navbar">
+        <nav>
+            <img src="{% static 'logo2.png' %}">
+            <ul>
+                <li id="HydraHealth">HydraHealth</li>
+                
+                <li id="logout"><a href="login.html">Log out</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="body">
+        <div id="sidepanel">
+            <button>Grade 1</button>
+        </div>
+        <div id="content">
+            <a href="{% url 'grades:dashboard' %}">
+            <button id="back">Go Back</button>
+            </a>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <h1>Identify basic food groups </h1>
+            <div id="inner-content">
+                <p>Imagine your plate is a spaceship exploring the delicious galaxy of food! Just like spaceships need different types of fuel, our bodies need different types of food to grow strong and healthy. So, buckle up and get ready to learn about the amazing crew of foods that will fuel your adventures!
+                    <br><br>
+                    First, we have the vibrant fruits and vegetables, packed with vitamins and minerals that make your body zoom like a rocket. Think of oranges for vitamin C to fight off villains, or carrots with vitamin A for super eyesight! Then, there are the millets and grains, the energy bars of the food world. They give you long-lasting power, like brown rice for steady fuel or oats for a quick energy boost.
+                </p>
+                <img id="img1" src="{% static 'images/fruits.png' %}">
+                <img id="img2" src="{% static 'images/vegetable.png' %}">
+                <p id="p2">Don't forget the protein powerhouses like meat, fish, eggs, and beans! These are the building blocks for strong muscles and bones, just like the metal beams that make a spaceship sturdy. And to keep your bones healthy and your smile bright, we have the dairy astronauts, like milk and cheese, rich in calcium.</p>
+                <img id="img3" src="{% static 'images/bread.png' %}">
+                <img id="img4" src="{% static 'images/dairy-products.png' %}">
+                <img id="img5" src="{% static 'images/meat.png' %}">
+                
+                <p id="p3">Remember, each type of food has a special superpower, and a balanced diet is like having a diverse crew on your spaceship. Include all types of food in your meals, and you'll have the energy, strength, and health to explore the world with a smile! So, eat your fruits and veggies, blast off with grains, power up with protein, and don't forget your dairy friends for a delicious and healthy adventure!</p>
+                
+                <a id="last" href="https://www.youtube.com/watch?v=C-uAyM3txKg">Video Resources</a>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydraHealth</title>
+    <link rel="stylesheet" href="{% static 'login_which_student.css' %}">
+</head>
+<body>
+    <div id="navigation">
+        <nav>
+            <img src="{% static 'logo2.png' %}">
+            <ul>
+                <li><a href="{% url 'home:homee' %}">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="box1">
+            <div id="box2">
+                <a href="{% url 'accounts:student_login' %}"><img src="{% static 'existing_user.jpg' %}"></a>
+            </div>
+
+            <div id="box3">
+                <a href="{% url 'accounts:register' %}"><img src="{% static 'new_user.jpg' %}"></a>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydraHealth</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    <div id="navigation">
+        <nav>
+            <img src="{% static 'logo2.png' %}">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="{% url 'home:about_us' %}">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li id="login"><a href="{% url 'accounts:login_as' %}">Log in</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="main_body">
+        <div id="box">
+            <p id="Header">HydraHealth</p>
+            <p id="phrase">For a better and healthier future</p>
+        </div>
+    </div>
+    <p style="color:black;background-color: #63B457; text-align: center; font-size: 50px;padding-left: 50px;padding-top: 10px; font-weight: 700;font-family: cursive;">Core Principles</p>
+    <div id="body2">
+        <img src="{% static 'background_image3.jpg' %}">
+    </div>
+    <footer>
+        <p id="footer_stuff">Our mission is to provide free, quality health education to anyone, anywhere.</p>
+    </footer>
+</body>
+</html>
